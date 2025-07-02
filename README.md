@@ -29,6 +29,14 @@ I believe in systems thinking - approaching complex problems holistically rather
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The amplification paradox: Why AI makes good architecture more essential, not less](https://medium.com/@zepedrosilva/the-amplification-paradox-why-ai-makes-good-architecture-more-essential-not-less-5e05bd2d6669?source=rss-cc0cb0ca1820------2) -- [Personal](https://medium.com)
+* [The unexpected joy of digital parenthood: a fictional developer’s tale of code ownership](https://medium.com/@zepedrosilva/the-unexpected-joy-of-digital-parenthood-a-fictional-developers-tale-of-code-ownership-93de11d81b85?source=rss-cc0cb0ca1820------2) -- [Personal](https://medium.com)
+* [From chaos to microservices (and a dinner party gone mad)](https://medium.com/@zepedrosilva/from-chaos-to-microservices-and-a-dinner-party-gone-mad-2a6d6803e095?source=rss-cc0cb0ca1820------2) -- [Personal](https://medium.com)
+* [Why tracking technical debt matters for growth](https://developers.mews.com/why-tracking-technical-debt-matters-for-growth/) -- [Mews](https://developers.mews.com)
+* [Leveraging ADRs to strengthen architecture and teams](https://developers.mews.com/leveraging-adrs-to-strengthen-architecture-and-teams/) -- [Mews](https://developers.mews.com)
+* [Architecture Overview: A guide to the autobiography of a system](https://developers.mews.com/architecture-overview/) -- [Mews](https://developers.mews.com)
+* [The importance of lean documentation: A developer’s key to empowering organizations](https://developers.mews.com/the-importance-of-lean-documentation/) -- [Mews](https://developers.mews.com)
+
 ## Ways to connect 🤝
 
 I'm always interested in discussing system architecture, sharing knowledge about cloud-native patterns, or exchanging ideas about technical challenges. Whether you're looking to solve complex distributed systems problems, seeking mentoring guidance, or simply want to chat about the latest in software development and architecture, feel free to reach out.
