@@ -1,4 +1,4 @@
-name: Update Blog Posts
+name: Update the list of blog posts
 
 on:
   schedule:
@@ -19,6 +19,9 @@ on:
 env:
   FEED_URLS: ${{ github.event.inputs.feed_urls || 'Personal|https://medium.com/@zepedrosilva/feed,Developers@Mews|https://developers.mews.com/author/jose-silva/feed/' }}
   MAX_POSTS: ${{ github.event.inputs.max_posts || '15' }}
+
+permissions:
+  contents: write
 
 jobs:
   update-blog-posts:
