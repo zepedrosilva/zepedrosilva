@@ -90,8 +90,7 @@ def generate_blog_section(posts):
     section = ""
     
     for post in posts:
-        source_link = f"[{post['source']}]({post['source_url']})"
-        section += f"* [{post['title']}]({post['link']})<br/>-- Source: {source_link}\n"
+        section += f"* [{post['title']}]({post['link']})\n"
     
     return section
 
