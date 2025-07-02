@@ -60,4 +60,4 @@ jobs:
         git config --local user.name "GitHub Action"
         git add README.md
         git commit -m "Update blog posts from Medium RSS feed"
-        git push
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
