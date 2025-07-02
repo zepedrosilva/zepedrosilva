@@ -87,13 +87,12 @@ def merge_and_deduplicate_posts(feeds_posts, max_posts=10):
 
 def generate_blog_section(posts):
     """generate markdown section for blog posts"""
-    section = "\n## Latest blog posts\n\n"
+    section = ""
     
     for post in posts:
         source_link = f"[{post['source']}]({post['source_url']})"
         section += f"* [{post['title']}]({post['link']}) -- {source_link}\n"
     
-    section += "\n"
     return section
 
 def update_readme(posts):
@@ -107,29 +106,16 @@ def update_readme(posts):
     
     blog_section = generate_blog_section(posts)
     
-    # remove all existing blog sections (case insensitive)
-    blog_pattern = r'\n## Latest [Bb]log [Pp]osts\n\n.*?(?=\n## |\n<!--|\Z)'
+    # find the placeholder and replace existing blog posts
+    placeholder = "<!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->"
     
-    # remove all existing blog sections
-    new_content = re.sub(blog_pattern, '', content, flags=re.DOTALL)
-    
-    # insert blog section after "Architecture philosophy" section
-    philosophy_pattern = r'(\n## Architecture philosophy\n\n.*?\n)'
-    match = re.search(philosophy_pattern, new_content, re.DOTALL)
-    
-    if match:
-        insert_pos = match.end()
-        new_content = new_content[:insert_pos] + blog_section + new_content[insert_pos:]
+    if placeholder in content:
+        # remove any existing blog posts after the placeholder
+        pattern = re.compile(f'{re.escape(placeholder)}.*?(?=\n## |$)', re.DOTALL)
+        new_content = pattern.sub(f"{placeholder}\n\n{blog_section}", content)
     else:
-        # fallback: add before the comment section
-        comment_pattern = r'\n<!--'
-        match = re.search(comment_pattern, new_content)
-        if match:
-            insert_pos = match.start()
-            new_content = new_content[:insert_pos] + blog_section + new_content[insert_pos:]
-        else:
-            # fallback: add at the end
-            new_content = new_content + blog_section
+        print("Warning: BLOG_POSTS_PLACEHOLDER not found in README.md")
+        return False
     
     # only write if content changed
     if new_content != content:

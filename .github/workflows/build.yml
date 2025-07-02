@@ -61,5 +61,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md
-        git commit -m "Update blog posts from Medium RSS feed"
+        git commit -m "Updated the blog post section"
         git push
