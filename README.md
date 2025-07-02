@@ -19,7 +19,8 @@ In this rapidly evolving world of technology, I remain that curious developer wh
 
 ## Architecture philosophy 🏗️
 
-I believe in systems thinking - approaching complex problems holistically rather than in isolation. My architectural decisions are guided by:
+I believe in systems thinking - approaching complex problems holistically rather than in isolation.
+My architectural decisions are guided by:
 * 💻 Developer experience first: If it's painful to work with, it won't scale
 * 🌿 Evolutionary design: Build for today's needs with tomorrow's growth in mind
 * 🔧 Operational excellence: Systems should be observable, debuggable, and maintainable
