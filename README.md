@@ -1,7 +1,7 @@
 ## Hey there! I'm Jose - nice to meet you! 👋
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge)](https://zepedro.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zepedro)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@zepedrosilva)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zepedrosilva)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/zepedro)
@@ -44,7 +44,7 @@ My architectural philosophy rests on the following mantras:
 I'm always interested in discussing system architecture, sharing knowledge about cloud-native patterns, or exchanging ideas about technical challenges. Whether you're looking to solve complex distributed systems problems, seeking mentoring guidance, or simply want to chat about the latest in software development and architecture, feel free to reach out.
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge)](https://zepedro.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zepedro)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@zepedrosilva)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zepedrosilva)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/zepedro)
