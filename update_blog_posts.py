@@ -127,23 +127,14 @@ def update_readme(posts):
         return False
 
 def main():
-    # get feed URLs from command line argument or use defaults
-    if len(sys.argv) > 1:
-        feed_entries_str = sys.argv[1]
-        feed_entries = [entry.strip() for entry in feed_entries_str.split(',')]
-    else:
-        feed_entries = [
-            "Medium|https://medium.com/@zepedrosilva/feed",
-            "Develpers@Mews|https://developers.mews.com/author/jose-silva/feed/"
-        ]
+    # hardcoded feed URLs
+    feed_entries = [
+        "Medium|https://medium.com/@zepedrosilva/feed",
+        "Developers@Mews|https://developers.mews.com/author/jose-silva/feed/"
+    ]
     
-    # get max_posts from command line argument or use default
-    max_posts = 10  # increased default
-    if len(sys.argv) > 2:
-        try:
-            max_posts = int(sys.argv[2])
-        except ValueError:
-            print(f"Warning: Invalid max_posts value '{sys.argv[2]}', using default {max_posts}")
+    # hardcoded max_posts
+    max_posts = 15
     
     print(f"Fetching up to {max_posts} blog posts from {len(feed_entries)} feeds")
     

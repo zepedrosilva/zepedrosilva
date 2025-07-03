@@ -4,21 +4,6 @@ on:
   schedule:
     - cron: '0 9 * * *'  # Daily at 9 AM UTC
   workflow_dispatch:  # Allow manual trigger
-    inputs:
-      feed_urls:
-        description: 'Comma-separated list of RSS feeds in format "name|url" or just "url" (in order of precedence)'
-        required: false
-        default: 'Personal|https://medium.com/@zepedrosilva/feed,Mews|https://developers.mews.com/author/jose-silva/feed/'
-        type: string
-      max_posts:
-        description: 'Maximum number of blog posts to display'
-        required: false
-        default: '10'
-        type: string
-
-env:
-  FEED_URLS: ${{ github.event.inputs.feed_urls || 'Medium|https://medium.com/@zepedrosilva/feed,Developers@Mews|https://developers.mews.com/author/jose-silva/feed/' }}
-  MAX_POSTS: ${{ github.event.inputs.max_posts || '15' }}
 
 permissions:
   contents: write
@@ -44,7 +29,7 @@ jobs:
         pip install feedparser
         
     - name: Update the list of blog posts
-      run: python update_blog_posts.py "$FEED_URLS" "$MAX_POSTS"
+      run: python update_blog_posts.py
       
     - name: Check for changes
       id: verify-changed-files
