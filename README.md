@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The great SaaS obituary: why reports of its death are greatly exaggerated](https://medium.com/@zepedrosilva/the-great-saas-obituary-why-reports-of-its-death-are-greatly-exaggerated-82a8910579c6?source=rss-cc0cb0ca1820------2)
 * [The curious case of the vanishing (and reappearing) instruction manual](https://medium.com/@zepedrosilva/the-curious-case-of-the-vanishing-and-reappearing-instruction-manual-6930a4cd5090?source=rss-cc0cb0ca1820------2)
 * [The amplification paradox: Why AI makes good architecture more essential, not less](https://medium.com/@zepedrosilva/the-amplification-paradox-why-ai-makes-good-architecture-more-essential-not-less-5e05bd2d6669?source=rss-cc0cb0ca1820------2)
 * [The unexpected joy of digital parenthood: a fictional developer’s tale of code ownership](https://medium.com/@zepedrosilva/the-unexpected-joy-of-digital-parenthood-a-fictional-developers-tale-of-code-ownership-93de11d81b85?source=rss-cc0cb0ca1820------2)
