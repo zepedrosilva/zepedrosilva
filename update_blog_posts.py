@@ -134,7 +134,7 @@ def main():
     ]
     
     # hardcoded max_posts
-    max_posts = 15
+    max_posts = 25
     
     print(f"Fetching up to {max_posts} blog posts from {len(feed_entries)} feeds")
     
