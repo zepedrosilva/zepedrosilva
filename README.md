@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The tragedy of the architectural commons: Why shared services become everyone’s problem](https://medium.com/@zepedrosilva/the-tragedy-of-the-architectural-commons-why-shared-services-become-everyones-problem-133983d9abd7?source=rss-cc0cb0ca1820------2)
 * [The AI pressure cooker](https://medium.com/@zepedrosilva/the-ai-pressure-cooker-f697db0eb394?source=rss-cc0cb0ca1820------2)
 * [The great SaaS obituary: why reports of its death are greatly exaggerated](https://medium.com/@zepedrosilva/the-great-saas-obituary-why-reports-of-its-death-are-greatly-exaggerated-82a8910579c6?source=rss-cc0cb0ca1820------2)
 * [The curious case of the vanishing (and reappearing) instruction manual](https://medium.com/@zepedrosilva/the-curious-case-of-the-vanishing-and-reappearing-instruction-manual-6930a4cd5090?source=rss-cc0cb0ca1820------2)
