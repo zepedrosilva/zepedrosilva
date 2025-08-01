@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The renovation revolution: What “disposable code” actually means for working systems](https://medium.com/@zepedrosilva/the-renovation-revolution-what-disposable-code-actually-means-for-working-systems-ba43c8b9ed70?source=rss-cc0cb0ca1820------2)
 * [From changing a lightbulb to rewiring the house: Observations on how simple requests become…](https://medium.com/@zepedrosilva/from-changing-a-lightbulb-to-rewiring-the-house-observations-on-how-simple-requests-become-a19c83bd1239?source=rss-cc0cb0ca1820------2)
 * [The tragedy of the architectural commons: Why shared services become everyone’s problem](https://medium.com/@zepedrosilva/the-tragedy-of-the-architectural-commons-why-shared-services-become-everyones-problem-133983d9abd7?source=rss-cc0cb0ca1820------2)
 * [The AI pressure cooker](https://medium.com/@zepedrosilva/the-ai-pressure-cooker-f697db0eb394?source=rss-cc0cb0ca1820------2)
