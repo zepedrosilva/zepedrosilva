@@ -15,25 +15,61 @@ def get_base_url(url):
     parsed = urlparse(url)
     return f"{parsed.scheme}://{parsed.netloc}"
 
-def parse_feed_entry(feed_entry):
-    """parse a feed entry in format 'name|url' or just 'url'"""
-    if '|' in feed_entry:
-        # format: "name|url"  
-        parts = feed_entry.split('|', 1)
-        if len(parts) == 2:
-            name = parts[0].strip()
-            url = parts[1].strip()
-            return name, url
+def convert_to_canonical_url(original_url, canonical_base_url, regex_pattern=None):
+    """convert URL to use canonical domain and apply optional regex transformation"""
+    # parse the canonical base URL to get the domain
+    canonical_parsed = urlparse(canonical_base_url)
+    canonical_domain = f"{canonical_parsed.scheme}://{canonical_parsed.netloc}"
     
-    # format: just "url" - use domain as name
-    url = feed_entry.strip()
-    parsed = urlparse(url)
-    # use the domain as the name
-    name = parsed.netloc.replace('www.', '')
+    # parse the original URL
+    original_parsed = urlparse(original_url)
     
-    return name, url
+    # extract just the path without query parameters
+    clean_path = original_parsed.path
+    
+    # apply regex pattern if provided
+    if regex_pattern:
+        try:
+            # assume the regex pattern is in the format "search_pattern->replacement"
+            if '->' in regex_pattern:
+                search_pattern, replacement = regex_pattern.split('->', 1)
+                clean_path = re.sub(search_pattern.strip(), replacement.strip(), clean_path)
+            else:
+                # if no replacement specified, assume we want to extract the first capture group
+                match = re.search(regex_pattern, clean_path)
+                if match and match.groups():
+                    clean_path = '/' + match.group(1)
+        except re.error:
+            # if regex fails, use original path
+            pass
+    
+    # construct the canonical URL
+    return f"{canonical_domain}{clean_path}"
 
-def fetch_posts_from_feed(feed_url, source_name, base_url):
+def parse_feed_entry(feed_entry):
+    """parse a feed entry in format 'name|url|regex_pattern' or 'name|url' or just 'url'"""
+    parts = feed_entry.split('|')
+    
+    if len(parts) >= 3:
+        # format: "name|url|regex_pattern"
+        name = parts[0].strip()
+        url = parts[1].strip()
+        regex_pattern = parts[2].strip() if parts[2].strip() else None
+        return name, url, regex_pattern
+    elif len(parts) == 2:
+        # format: "name|url"
+        name = parts[0].strip()
+        url = parts[1].strip()
+        return name, url, None
+    else:
+        # format: just "url" - use domain as name
+        url = feed_entry.strip()
+        parsed = urlparse(url)
+        # use the domain as the name
+        name = parsed.netloc.replace('www.', '')
+        return name, url, None
+
+def fetch_posts_from_feed(feed_url, source_name, base_url, regex_pattern=None):
     """fetch and parse RSS feed"""
     feed = feedparser.parse(feed_url)
     posts = []
@@ -43,17 +79,25 @@ def fetch_posts_from_feed(feed_url, source_name, base_url):
         published_date = None
         if hasattr(entry, 'published'):
             try:
-                published_date = datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %Z').strftime('%Y-%m-%d')
+                # try standard RSS format with timezone offset
+                published_date = datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %z').strftime('%Y-%m-%d')
             except ValueError:
                 try:
-                    # try alternative format
-                    published_date = datetime.strptime(entry.published, '%Y-%m-%dT%H:%M:%S%z').strftime('%Y-%m-%d')
+                    # try RSS format with timezone abbreviation
+                    published_date = datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %Z').strftime('%Y-%m-%d')
                 except ValueError:
-                    published_date = 'Unknown'
+                    try:
+                        # try ISO format
+                        published_date = datetime.strptime(entry.published, '%Y-%m-%dT%H:%M:%S%z').strftime('%Y-%m-%d')
+                    except ValueError:
+                        published_date = 'Unknown'
+        
+        # convert link to canonical URL using the feed's base URL and regex pattern
+        canonical_link = convert_to_canonical_url(entry.link, base_url, regex_pattern)
         
         post = {
             'title': entry.title,
-            'link': entry.link,
+            'link': canonical_link,
             'published': published_date or 'Unknown',
             'source': source_name,
             'source_url': base_url,
@@ -86,21 +130,24 @@ def merge_and_deduplicate_posts(feeds_posts, max_posts=10):
     return all_posts[:max_posts]
 
 def generate_blog_section(posts):
-    """generate markdown section for blog posts"""
-    section = ""
+    """generate HTML section for blog posts"""
+    section = "    <ul>\n"
     
     for post in posts:
-        section += f"* [{post['title']}]({post['link']})\n"
+        date_str = post['published'] if post['published'] != 'Unknown' else ''
+        date_prefix = f"<span>{date_str}</span> " if date_str else ""
+        section += f"      <li>{date_prefix}<a href=\"{post['link']}\" target=\"_blank\">{post['title']}</a></li>\n"
     
+    section += "    </ul>"
     return section
 
-def update_readme(posts):
-    """update README.md with latest blog posts"""
+def update_html(posts):
+    """update index.html with latest blog posts"""
     try:
-        with open('README.md', 'r', encoding='utf-8') as file:
+        with open('index.html', 'r', encoding='utf-8') as file:
             content = file.read()
     except FileNotFoundError:
-        print("README.md not found")
+        print("index.html not found")
         return False
     
     blog_section = generate_blog_section(posts)
@@ -110,26 +157,26 @@ def update_readme(posts):
     
     if placeholder in content:
         # remove any existing blog posts after the placeholder
-        pattern = re.compile(f'{re.escape(placeholder)}.*?(?=\n## |$)', re.DOTALL)
-        new_content = pattern.sub(f"{placeholder}\n\n{blog_section}", content)
+        pattern = re.compile(f'{re.escape(placeholder)}.*?(?=\n  </section>)', re.DOTALL)
+        new_content = pattern.sub(f"{placeholder}\n{blog_section}", content)
     else:
-        print("Warning: BLOG_POSTS_PLACEHOLDER not found in README.md")
+        print("Warning: BLOG_POSTS_PLACEHOLDER not found in index.html")
         return False
     
     # only write if content changed
     if new_content != content:
-        with open('README.md', 'w', encoding='utf-8') as file:
+        with open('index.html', 'w', encoding='utf-8') as file:
             file.write(new_content)
-        print("README.md updated with latest blog posts")
+        print("index.html updated with latest blog posts")
         return True
     else:
         print("No changes needed")
         return False
 
 def main():
-    # hardcoded feed URLs
+    # hardcoded feed URLs with optional regex patterns
     feed_entries = [
-        "Medium|https://medium.com/@zepedrosilva/feed",
+        "Medium|https://blog.zepedro.com/feed|/@[^/]+/(.+)",
         "Developers@Mews|https://developers.mews.com/author/jose-silva/feed/"
     ]
     
@@ -142,9 +189,9 @@ def main():
         # parse feed entries and fetch posts from all feeds
         feeds_posts = []
         for feed_entry in feed_entries:
-            source_name, feed_url = parse_feed_entry(feed_entry)
+            source_name, feed_url, regex_pattern = parse_feed_entry(feed_entry)
             base_url = get_base_url(feed_url)
-            posts = fetch_posts_from_feed(feed_url, source_name, base_url)
+            posts = fetch_posts_from_feed(feed_url, source_name, base_url, regex_pattern)
             feeds_posts.append(posts)
             print(f"Fetched {len(posts)} posts from {source_name}")
         
@@ -152,9 +199,9 @@ def main():
         all_posts = merge_and_deduplicate_posts(feeds_posts, max_posts)
         
         if all_posts:
-            updated = update_readme(all_posts)
+            updated = update_html(all_posts)
             if updated:
-                print(f"Updated README.md with {len(all_posts)} blog posts")
+                print(f"Updated index.html with {len(all_posts)} blog posts")
                 # show breakdown by source
                 source_counts = {}
                 for post in all_posts:
@@ -162,7 +209,7 @@ def main():
                 for source, count in source_counts.items():
                     print(f"{source} posts: {count}")
             else:
-                print("README.md is already up to date")
+                print("index.html is already up to date")
         else:
             print("No posts found in the feeds")
     except Exception as e:

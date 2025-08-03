@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge)](https://zepedro.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zepedro)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@zepedrosilva)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.zepedro.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zepedrosilva)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/zepedro)
 [![Bluesky](https://img.shields.io/badge/Bluesky-00A8E8?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/zepedro.com)
@@ -31,15 +31,15 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
-* [The renovation revolution: What “disposable code” actually means for working systems](https://medium.com/@zepedrosilva/the-renovation-revolution-what-disposable-code-actually-means-for-working-systems-ba43c8b9ed70?source=rss-cc0cb0ca1820------2)
-* [From changing a lightbulb to rewiring the house: Observations on how simple requests become…](https://medium.com/@zepedrosilva/from-changing-a-lightbulb-to-rewiring-the-house-observations-on-how-simple-requests-become-a19c83bd1239?source=rss-cc0cb0ca1820------2)
-* [The tragedy of the architectural commons: Why shared services become everyone’s problem](https://medium.com/@zepedrosilva/the-tragedy-of-the-architectural-commons-why-shared-services-become-everyones-problem-133983d9abd7?source=rss-cc0cb0ca1820------2)
-* [The AI pressure cooker](https://medium.com/@zepedrosilva/the-ai-pressure-cooker-f697db0eb394?source=rss-cc0cb0ca1820------2)
-* [The great SaaS obituary: why reports of its death are greatly exaggerated](https://medium.com/@zepedrosilva/the-great-saas-obituary-why-reports-of-its-death-are-greatly-exaggerated-82a8910579c6?source=rss-cc0cb0ca1820------2)
-* [The curious case of the vanishing (and reappearing) instruction manual](https://medium.com/@zepedrosilva/the-curious-case-of-the-vanishing-and-reappearing-instruction-manual-6930a4cd5090?source=rss-cc0cb0ca1820------2)
-* [The amplification paradox: Why AI makes good architecture more essential, not less](https://medium.com/@zepedrosilva/the-amplification-paradox-why-ai-makes-good-architecture-more-essential-not-less-5e05bd2d6669?source=rss-cc0cb0ca1820------2)
-* [The unexpected joy of digital parenthood: a fictional developer’s tale of code ownership](https://medium.com/@zepedrosilva/the-unexpected-joy-of-digital-parenthood-a-fictional-developers-tale-of-code-ownership-93de11d81b85?source=rss-cc0cb0ca1820------2)
-* [From chaos to microservices (and a dinner party gone mad)](https://medium.com/@zepedrosilva/from-chaos-to-microservices-and-a-dinner-party-gone-mad-2a6d6803e095?source=rss-cc0cb0ca1820------2)
+* [The renovation revolution: What “disposable code” actually means for working systems](https://blog.zepedro.com/the-renovation-revolution-what-disposable-code-actually-means-for-working-systems-ba43c8b9ed70?source=rss-cc0cb0ca1820------2)
+* [From changing a lightbulb to rewiring the house: Observations on how simple requests become…](https://blog.zepedro.com/from-changing-a-lightbulb-to-rewiring-the-house-observations-on-how-simple-requests-become-a19c83bd1239?source=rss-cc0cb0ca1820------2)
+* [The tragedy of the architectural commons: Why shared services become everyone’s problem](https://blog.zepedro.com/the-tragedy-of-the-architectural-commons-why-shared-services-become-everyones-problem-133983d9abd7?source=rss-cc0cb0ca1820------2)
+* [The AI pressure cooker](https://blog.zepedro.com/the-ai-pressure-cooker-f697db0eb394?source=rss-cc0cb0ca1820------2)
+* [The great SaaS obituary: why reports of its death are greatly exaggerated](https://blog.zepedro.com/the-great-saas-obituary-why-reports-of-its-death-are-greatly-exaggerated-82a8910579c6?source=rss-cc0cb0ca1820------2)
+* [The curious case of the vanishing (and reappearing) instruction manual](https://blog.zepedro.com/the-curious-case-of-the-vanishing-and-reappearing-instruction-manual-6930a4cd5090?source=rss-cc0cb0ca1820------2)
+* [The amplification paradox: Why AI makes good architecture more essential, not less](https://blog.zepedro.com/the-amplification-paradox-why-ai-makes-good-architecture-more-essential-not-less-5e05bd2d6669?source=rss-cc0cb0ca1820------2)
+* [The unexpected joy of digital parenthood: a fictional developer’s tale of code ownership](https://blog.zepedro.com/the-unexpected-joy-of-digital-parenthood-a-fictional-developers-tale-of-code-ownership-93de11d81b85?source=rss-cc0cb0ca1820------2)
+* [From chaos to microservices (and a dinner party gone mad)](https://blog.zepedro.com/from-chaos-to-microservices-and-a-dinner-party-gone-mad-2a6d6803e095?source=rss-cc0cb0ca1820------2)
 * [Why tracking technical debt matters for growth](https://developers.mews.com/why-tracking-technical-debt-matters-for-growth/)
 * [Leveraging ADRs to strengthen architecture and teams](https://developers.mews.com/leveraging-adrs-to-strengthen-architecture-and-teams/)
 * [Architecture Overview: A guide to the autobiography of a system](https://developers.mews.com/architecture-overview/)
@@ -51,7 +51,7 @@ I'm always interested in discussing system architecture, sharing knowledge about
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge)](https://zepedro.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zepedro)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@zepedrosilva)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.zepedro.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zepedrosilva)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/zepedro)
 [![Bluesky](https://img.shields.io/badge/Bluesky-00A8E8?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/zepedro.com)
