@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The unfinished puzzle effect: why incomplete work won’t let you sleep](https://medium.com/@zepedrosilva/the-unfinished-puzzle-effect-why-incomplete-work-wont-let-you-sleep-dde34aaa23ee)
 * [The difference between what adds value and what is valuable](https://medium.com/@zepedrosilva/the-difference-between-what-adds-value-and-what-is-valuable-da9c4917af70)
 * [The mentorship conversations that shaped my career weren’t about code](https://medium.com/@zepedrosilva/the-mentorship-conversations-that-shaped-my-career-werent-about-code-3578ae756471)
 * [The infrastructure highway: choosing the right road for your engineering journey](https://medium.com/@zepedrosilva/the-infrastructure-highway-choosing-the-right-road-for-your-engineering-journey-6f3fca6074d8)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [From changing a lightbulb to rewiring the house: observations on how simple requests become…](https://medium.com/@zepedrosilva/from-changing-a-lightbulb-to-rewiring-the-house-observations-on-how-simple-requests-become-a19c83bd1239)
 * [The tragedy of the architectural commons: why shared services become everyone’s problem](https://medium.com/@zepedrosilva/the-tragedy-of-the-architectural-commons-why-shared-services-become-everyones-problem-133983d9abd7)
 * [The AI pressure cooker](https://medium.com/@zepedrosilva/the-ai-pressure-cooker-f697db0eb394)
-* [The great SaaS obituary: why reports of its death are greatly exaggerated](https://medium.com/@zepedrosilva/the-great-saas-obituary-why-reports-of-its-death-are-greatly-exaggerated-82a8910579c6)
 
 
 ## Ways to connect 🤝
