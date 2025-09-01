@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The versioning fallacy: why “just version it” isn’t that simple](https://medium.com/@zepedrosilva/the-versioning-fallacy-why-just-version-it-isnt-that-simple-355fd54a0a1a)
 * [The unfinished puzzle effect: why incomplete work won’t let you sleep](https://medium.com/@zepedrosilva/the-unfinished-puzzle-effect-why-incomplete-work-wont-let-you-sleep-dde34aaa23ee)
 * [The difference between what adds value and what is valuable](https://medium.com/@zepedrosilva/the-difference-between-what-adds-value-and-what-is-valuable-da9c4917af70)
 * [The mentorship conversations that shaped my career weren’t about code](https://medium.com/@zepedrosilva/the-mentorship-conversations-that-shaped-my-career-werent-about-code-3578ae756471)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The renovation revolution: what “disposable code” actually means for working systems](https://medium.com/@zepedrosilva/the-renovation-revolution-what-disposable-code-actually-means-for-working-systems-ba43c8b9ed70)
 * [From changing a lightbulb to rewiring the house: observations on how simple requests become…](https://medium.com/@zepedrosilva/from-changing-a-lightbulb-to-rewiring-the-house-observations-on-how-simple-requests-become-a19c83bd1239)
 * [The tragedy of the architectural commons: why shared services become everyone’s problem](https://medium.com/@zepedrosilva/the-tragedy-of-the-architectural-commons-why-shared-services-become-everyones-problem-133983d9abd7)
-* [The AI pressure cooker](https://medium.com/@zepedrosilva/the-ai-pressure-cooker-f697db0eb394)
 
 
 ## Ways to connect 🤝
