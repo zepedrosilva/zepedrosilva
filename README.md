@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The great digital hoarding dilemma: why developers can’t delete code](https://medium.com/@zepedrosilva/the-great-digital-hoarding-dilemma-why-developers-cant-delete-code-8951f2874120)
 * [From code to spotlight: the rehearsals we forgot to schedule](https://medium.com/@zepedrosilva/from-code-to-spotlight-the-rehearsals-we-forgot-to-schedule-66de123219de)
 * [The hidden cost of yes: what happens when engineers never push back](https://medium.com/@zepedrosilva/the-hidden-cost-of-yes-what-happens-when-engineers-never-push-back-51193927c578)
 * [The diagnostic pause: why senior engineers stop before they start](https://medium.com/@zepedrosilva/the-diagnostic-pause-why-senior-engineers-stop-before-they-start-6dfa39871664)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The mentorship conversations that shaped my career weren’t about code](https://medium.com/@zepedrosilva/the-mentorship-conversations-that-shaped-my-career-werent-about-code-3578ae756471)
 * [The infrastructure highway: choosing the right road for your engineering journey](https://medium.com/@zepedrosilva/the-infrastructure-highway-choosing-the-right-road-for-your-engineering-journey-6f3fca6074d8)
 * [The misunderstood value of failure in software development](https://medium.com/@zepedrosilva/the-misunderstood-value-of-failure-in-software-development-3c2ca473d318)
-* [Why ‘it depends’ is a reasonable answer (and how to make it more helpful)](https://medium.com/@zepedrosilva/why-it-depends-is-a-reasonable-answer-and-how-to-make-it-more-helpful-c169ac5647da)
 
 
 ## Ways to connect 🤝
