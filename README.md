@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The evening shift: tales of graceful (and disastrous) handoffs in software development](https://medium.com/@zepedrosilva/the-evening-shift-tales-of-graceful-and-disastrous-handoffs-in-software-development-21faa6c87fbf)
 * [The digital city planning crisis: why clear architectural naming is the foundation of navigable…](https://medium.com/@zepedrosilva/the-digital-city-planning-crisis-why-clear-architectural-naming-is-the-foundation-of-navigable-573dd6793789)
 * [The great digital hoarding dilemma: why developers can’t delete code](https://medium.com/@zepedrosilva/the-great-digital-hoarding-dilemma-why-developers-cant-delete-code-8951f2874120)
 * [From code to spotlight: the rehearsals we forgot to schedule](https://medium.com/@zepedrosilva/from-code-to-spotlight-the-rehearsals-we-forgot-to-schedule-66de123219de)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The unfinished puzzle effect: why incomplete work won’t let you sleep](https://medium.com/@zepedrosilva/the-unfinished-puzzle-effect-why-incomplete-work-wont-let-you-sleep-dde34aaa23ee)
 * [The difference between what adds value and what is valuable](https://medium.com/@zepedrosilva/the-difference-between-what-adds-value-and-what-is-valuable-da9c4917af70)
 * [The mentorship conversations that shaped my career weren’t about code](https://medium.com/@zepedrosilva/the-mentorship-conversations-that-shaped-my-career-werent-about-code-3578ae756471)
-* [The infrastructure highway: choosing the right road for your engineering journey](https://medium.com/@zepedrosilva/the-infrastructure-highway-choosing-the-right-road-for-your-engineering-journey-6f3fca6074d8)
 
 
 ## Ways to connect 🤝
