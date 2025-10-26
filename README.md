@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The pressure valve: why great systems know what to sacrifice when the heat is on](https://medium.com/@zepedrosilva/the-pressure-valve-why-great-systems-know-what-to-sacrifice-when-the-heat-is-on-e9551f4990d6)
 * [The evening shift: tales of graceful (and disastrous) handoffs in software development](https://medium.com/@zepedrosilva/the-evening-shift-tales-of-graceful-and-disastrous-handoffs-in-software-development-21faa6c87fbf)
 * [The digital city planning crisis: why clear architectural naming is the foundation of navigable…](https://medium.com/@zepedrosilva/the-digital-city-planning-crisis-why-clear-architectural-naming-is-the-foundation-of-navigable-573dd6793789)
 * [The great digital hoarding dilemma: why developers can’t delete code](https://medium.com/@zepedrosilva/the-great-digital-hoarding-dilemma-why-developers-cant-delete-code-8951f2874120)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The versioning fallacy: why “just version it” isn’t that simple](https://medium.com/@zepedrosilva/the-versioning-fallacy-why-just-version-it-isnt-that-simple-355fd54a0a1a)
 * [The unfinished puzzle effect: why incomplete work won’t let you sleep](https://medium.com/@zepedrosilva/the-unfinished-puzzle-effect-why-incomplete-work-wont-let-you-sleep-dde34aaa23ee)
 * [The difference between what adds value and what is valuable](https://medium.com/@zepedrosilva/the-difference-between-what-adds-value-and-what-is-valuable-da9c4917af70)
-* [The mentorship conversations that shaped my career weren’t about code](https://medium.com/@zepedrosilva/the-mentorship-conversations-that-shaped-my-career-werent-about-code-3578ae756471)
 
 
 ## Ways to connect 🤝
