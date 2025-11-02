@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The strategic compass: why architecture principles turn technical debates into business decisions](https://medium.com/@zepedrosilva/the-strategic-compass-why-architecture-principles-turn-technical-debates-into-business-decisions-9c92437ce01d)
 * [The pressure valve: why great systems know what to sacrifice when the heat is on](https://medium.com/@zepedrosilva/the-pressure-valve-why-great-systems-know-what-to-sacrifice-when-the-heat-is-on-e9551f4990d6)
 * [The evening shift: tales of graceful (and disastrous) handoffs in software development](https://medium.com/@zepedrosilva/the-evening-shift-tales-of-graceful-and-disastrous-handoffs-in-software-development-21faa6c87fbf)
 * [The digital city planning crisis: why clear architectural naming is the foundation of navigable…](https://medium.com/@zepedrosilva/the-digital-city-planning-crisis-why-clear-architectural-naming-is-the-foundation-of-navigable-573dd6793789)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The diagnostic pause: why senior engineers stop before they start](https://medium.com/@zepedrosilva/the-diagnostic-pause-why-senior-engineers-stop-before-they-start-6dfa39871664)
 * [The versioning fallacy: why “just version it” isn’t that simple](https://medium.com/@zepedrosilva/the-versioning-fallacy-why-just-version-it-isnt-that-simple-355fd54a0a1a)
 * [The unfinished puzzle effect: why incomplete work won’t let you sleep](https://medium.com/@zepedrosilva/the-unfinished-puzzle-effect-why-incomplete-work-wont-let-you-sleep-dde34aaa23ee)
-* [The difference between what adds value and what is valuable](https://medium.com/@zepedrosilva/the-difference-between-what-adds-value-and-what-is-valuable-da9c4917af70)
 
 
 ## Ways to connect 🤝
