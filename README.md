@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The digital wardrobe crisis: why we keep paying for cloud resources that no longer fit](https://medium.com/@zepedrosilva/the-digital-wardrobe-crisis-why-we-keep-paying-for-cloud-resources-that-no-longer-fit-4ae1011558d6)
 * [The neighborhood tool library: why inner sourcing transforms how teams build software](https://medium.com/@zepedrosilva/the-neighborhood-tool-library-why-inner-sourcing-transforms-how-teams-build-software-0c435c3141c0)
 * [The strategic compass: why architecture principles turn technical debates into business decisions](https://medium.com/@zepedrosilva/the-strategic-compass-why-architecture-principles-turn-technical-debates-into-business-decisions-9c92437ce01d)
 * [The pressure valve: why great systems know what to sacrifice when the heat is on](https://medium.com/@zepedrosilva/the-pressure-valve-why-great-systems-know-what-to-sacrifice-when-the-heat-is-on-e9551f4990d6)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [From code to spotlight: the rehearsals we forgot to schedule](https://medium.com/@zepedrosilva/from-code-to-spotlight-the-rehearsals-we-forgot-to-schedule-66de123219de)
 * [The hidden cost of yes: what happens when engineers never push back](https://medium.com/@zepedrosilva/the-hidden-cost-of-yes-what-happens-when-engineers-never-push-back-51193927c578)
 * [The diagnostic pause: why senior engineers stop before they start](https://medium.com/@zepedrosilva/the-diagnostic-pause-why-senior-engineers-stop-before-they-start-6dfa39871664)
-* [The versioning fallacy: why “just version it” isn’t that simple](https://medium.com/@zepedrosilva/the-versioning-fallacy-why-just-version-it-isnt-that-simple-355fd54a0a1a)
 
 
 ## Ways to connect 🤝
