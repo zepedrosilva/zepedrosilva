@@ -2,25 +2,33 @@
 
 import feedparser
 import re
-import urllib.request
 from datetime import datetime
+
+# Set user agent to avoid Medium blocking - must be set before parsing
+feedparser.USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+
+def convert_medium_url_to_canonical(original_url, canonical_domain="https://blog.zepedro.com"):
+    """convert Medium URL to use canonical domain by extracting article ID"""
+    # For Medium URLs, extract the article ID (12-character hex string at the end)
+    # Format: https://medium.com/@username/title-slug-ARTICLE_ID?source=...
+    # We want to extract just the ARTICLE_ID and create: https://blog.zepedro.com/ARTICLE_ID
+    medium_article_pattern = r'-([a-f0-9]{12})(?:\?|$)'
+    match = re.search(medium_article_pattern, original_url)
+    if match:
+        article_id = match.group(1)
+        return f"{canonical_domain}/{article_id}"
+
+    # fallback: just remove tracking parameters
+    return re.sub(r'\?source=.*', '', original_url)
 
 def fetch_medium_posts():
     """fetch posts from Medium RSS feed"""
-    feed_url = "https://blog.zepedro.com/feed"
-    
-    # create request with user agent to avoid blocking
-    req = urllib.request.Request(
-        feed_url,
-        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-    )
-    
-    with urllib.request.urlopen(req) as response:
-        feed_data = response.read()
-    
-    feed = feedparser.parse(feed_data)
+    # Use direct Medium feed URL
+    feed_url = "https://medium.com/@zepedrosilva/feed"
+
+    feed = feedparser.parse(feed_url)
     posts = []
-    
+
     for entry in feed.entries:
         # parse date
         published_date = 'Unknown'
@@ -32,16 +40,16 @@ def fetch_medium_posts():
                     published_date = datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %Z').strftime('%Y-%m-%d')
                 except ValueError:
                     pass
-        
-        # clean up Medium URL - remove tracking parameters
-        clean_link = re.sub(r'\?source=.*', '', entry.link)
-        
+
+        # convert Medium URL to canonical blog.zepedro.com URL
+        canonical_link = convert_medium_url_to_canonical(entry.link)
+
         posts.append({
             'title': entry.title,
-            'link': clean_link,
+            'link': canonical_link,
             'published': published_date
         })
-    
+
     return posts
 
 def update_readme(posts):
