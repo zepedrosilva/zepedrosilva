@@ -31,16 +31,16 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
-* [The digital wardrobe crisis: why we keep paying for cloud resources that no longer fit](https://medium.com/@zepedrosilva/the-digital-wardrobe-crisis-why-we-keep-paying-for-cloud-resources-that-no-longer-fit-4ae1011558d6)
-* [The neighborhood tool library: why inner sourcing transforms how teams build software](https://medium.com/@zepedrosilva/the-neighborhood-tool-library-why-inner-sourcing-transforms-how-teams-build-software-0c435c3141c0)
-* [The strategic compass: why architecture principles turn technical debates into business decisions](https://medium.com/@zepedrosilva/the-strategic-compass-why-architecture-principles-turn-technical-debates-into-business-decisions-9c92437ce01d)
-* [The pressure valve: why great systems know what to sacrifice when the heat is on](https://medium.com/@zepedrosilva/the-pressure-valve-why-great-systems-know-what-to-sacrifice-when-the-heat-is-on-e9551f4990d6)
-* [The evening shift: tales of graceful (and disastrous) handoffs in software development](https://medium.com/@zepedrosilva/the-evening-shift-tales-of-graceful-and-disastrous-handoffs-in-software-development-21faa6c87fbf)
-* [The digital city planning crisis: why clear architectural naming is the foundation of navigable…](https://medium.com/@zepedrosilva/the-digital-city-planning-crisis-why-clear-architectural-naming-is-the-foundation-of-navigable-573dd6793789)
-* [The great digital hoarding dilemma: why developers can’t delete code](https://medium.com/@zepedrosilva/the-great-digital-hoarding-dilemma-why-developers-cant-delete-code-8951f2874120)
-* [From code to spotlight: the rehearsals we forgot to schedule](https://medium.com/@zepedrosilva/from-code-to-spotlight-the-rehearsals-we-forgot-to-schedule-66de123219de)
-* [The hidden cost of yes: what happens when engineers never push back](https://medium.com/@zepedrosilva/the-hidden-cost-of-yes-what-happens-when-engineers-never-push-back-51193927c578)
-* [The diagnostic pause: why senior engineers stop before they start](https://medium.com/@zepedrosilva/the-diagnostic-pause-why-senior-engineers-stop-before-they-start-6dfa39871664)
+* [When the emergency room changes its specialty: phase-dependent technical prioritization](https://blog.zepedro.com/e9780617c219)
+* [The emergency room triage system: prioritizing technical work when everything feels urgent](https://blog.zepedro.com/6208dda8e7c7)
+* [The 80s kitchen syndrome: why technical decisions can’t predict the future](https://blog.zepedro.com/b72996436a09)
+* [The digital wardrobe crisis: why we keep paying for cloud resources that no longer fit](https://blog.zepedro.com/4ae1011558d6)
+* [The neighborhood tool library: why inner sourcing transforms how teams build software](https://blog.zepedro.com/0c435c3141c0)
+* [The strategic compass: why architecture principles turn technical debates into business decisions](https://blog.zepedro.com/9c92437ce01d)
+* [The pressure valve: why great systems know what to sacrifice when the heat is on](https://blog.zepedro.com/e9551f4990d6)
+* [The evening shift: tales of graceful (and disastrous) handoffs in software development](https://blog.zepedro.com/21faa6c87fbf)
+* [The digital city planning crisis: why clear architectural naming is the foundation of navigable…](https://blog.zepedro.com/573dd6793789)
+* [The great digital hoarding dilemma: why developers can’t delete code](https://blog.zepedro.com/8951f2874120)
 
 
 ## Ways to connect 🤝
