@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The Maru (丸) principle: why every deployment should be a complete voyage](https://blog.zepedro.com/2a9605bb4e36)
 * [The great station incident: when everyone taps their card again](https://blog.zepedro.com/3ff042901f9a)
 * [When the emergency room changes its specialty: phase-dependent technical prioritization](https://blog.zepedro.com/e9780617c219)
 * [The emergency room triage system: prioritizing technical work when everything feels urgent](https://blog.zepedro.com/6208dda8e7c7)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The strategic compass: why architecture principles turn technical debates into business decisions](https://blog.zepedro.com/9c92437ce01d)
 * [The pressure valve: why great systems know what to sacrifice when the heat is on](https://blog.zepedro.com/e9551f4990d6)
 * [The evening shift: tales of graceful (and disastrous) handoffs in software development](https://blog.zepedro.com/21faa6c87fbf)
-* [The digital city planning crisis: why clear architectural naming is the foundation of navigable…](https://blog.zepedro.com/573dd6793789)
 
 
 ## Ways to connect 🤝
