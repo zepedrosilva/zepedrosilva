@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The captain’s inspection: why we need to examine more than whether the ship is floating](https://blog.zepedro.com/8c8a0c59011f)
 * [The architecture of flow: building systems that enable deep work](https://blog.zepedro.com/1d14382e5746)
 * [Group flow: when teams move as one without checking every step](https://blog.zepedro.com/53a36aeef531)
 * [The three ingredients of misalignment: discovery, surprise, and harm](https://blog.zepedro.com/fbb96fa6d7c6)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The emergency room triage system: prioritizing technical work when everything feels urgent](https://blog.zepedro.com/6208dda8e7c7)
 * [The 80s kitchen syndrome: why technical decisions can’t predict the future](https://blog.zepedro.com/b72996436a09)
 * [The digital wardrobe crisis: why we keep paying for cloud resources that no longer fit](https://blog.zepedro.com/4ae1011558d6)
-* [The neighborhood tool library: why inner sourcing transforms how teams build software](https://blog.zepedro.com/0c435c3141c0)
 
 
 ## Ways to connect 🤝
