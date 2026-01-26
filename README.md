@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [Learning to lean in: the discipline of walking toward discomfort](https://blog.zepedro.com/5b638a16e7ca)
 * [The captain’s inspection: why we need to examine more than whether the ship is floating](https://blog.zepedro.com/8c8a0c59011f)
 * [The architecture of flow: building systems that enable deep work](https://blog.zepedro.com/1d14382e5746)
 * [Group flow: when teams move as one without checking every step](https://blog.zepedro.com/53a36aeef531)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [When the emergency room changes its specialty: phase-dependent technical prioritization](https://blog.zepedro.com/e9780617c219)
 * [The emergency room triage system: prioritizing technical work when everything feels urgent](https://blog.zepedro.com/6208dda8e7c7)
 * [The 80s kitchen syndrome: why technical decisions can’t predict the future](https://blog.zepedro.com/b72996436a09)
-* [The digital wardrobe crisis: why we keep paying for cloud resources that no longer fit](https://blog.zepedro.com/4ae1011558d6)
 
 
 ## Ways to connect 🤝
