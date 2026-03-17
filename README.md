@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [Thinner air, wider view: what nobody tells you about the staff engineer climb](https://blog.zepedro.com/cddbe6571a9d)
 * [The checklist paradox: why excellent engineers still need cloud guardrails](https://blog.zepedro.com/c5ea3739bf66)
 * [Not all switches are equal: the kill switch as operational infrastructure](https://blog.zepedro.com/a3bedf3db460)
 * [Learning to lean in: the discipline of walking toward discomfort](https://blog.zepedro.com/5b638a16e7ca)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The three ingredients of misalignment: discovery, surprise, and harm](https://blog.zepedro.com/fbb96fa6d7c6)
 * [The Maru (丸) principle: why every deployment should be a complete voyage](https://blog.zepedro.com/2a9605bb4e36)
 * [The great station incident: when everyone taps their card again](https://blog.zepedro.com/3ff042901f9a)
-* [When the emergency room changes its specialty: phase-dependent technical prioritization](https://blog.zepedro.com/e9780617c219)
 
 
 ## Ways to connect 🤝
