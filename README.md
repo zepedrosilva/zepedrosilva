@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The borrowed sense: why you can’t borrow AI’s engineering instinct](https://blog.zepedro.com/aae15f6724f8)
 * [The ranger and the map: what platform teams become when AI coding agents do the building](https://blog.zepedro.com/3b856194d880)
 * [Thinner air, wider view: what nobody tells you about the staff engineer climb](https://blog.zepedro.com/cddbe6571a9d)
 * [The checklist paradox: why excellent engineers still need cloud guardrails](https://blog.zepedro.com/c5ea3739bf66)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The architecture of flow: building systems that enable deep work](https://blog.zepedro.com/1d14382e5746)
 * [Group flow: when teams move as one without checking every step](https://blog.zepedro.com/53a36aeef531)
 * [The three ingredients of misalignment: discovery, surprise, and harm](https://blog.zepedro.com/fbb96fa6d7c6)
-* [The Maru (丸) principle: why every deployment should be a complete voyage](https://blog.zepedro.com/2a9605bb4e36)
 
 
 ## Ways to connect 🤝
