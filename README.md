@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The garden that grows back wild: why resilience decays the moment you stop practicing it](https://blog.zepedro.com/4b587fd65f38)
 * [The borrowed sense: why you can’t borrow AI’s engineering instinct](https://blog.zepedro.com/aae15f6724f8)
 * [The ranger and the map: what platform teams become when AI coding agents do the building](https://blog.zepedro.com/3b856194d880)
 * [Thinner air, wider view: what nobody tells you about the staff engineer climb](https://blog.zepedro.com/cddbe6571a9d)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The captain’s inspection: why we need to examine more than whether the ship is floating](https://blog.zepedro.com/8c8a0c59011f)
 * [The architecture of flow: building systems that enable deep work](https://blog.zepedro.com/1d14382e5746)
 * [Group flow: when teams move as one without checking every step](https://blog.zepedro.com/53a36aeef531)
-* [The three ingredients of misalignment: discovery, surprise, and harm](https://blog.zepedro.com/fbb96fa6d7c6)
 
 
 ## Ways to connect 🤝
