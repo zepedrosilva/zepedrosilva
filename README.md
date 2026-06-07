@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The gym membership principle: why defining fitness functions isn’t the same as using them](https://blog.zepedro.com/14bf1ceaeae6)
 * [The cartographer who stopped traveling: how familiarity hides the friction in platforms you built](https://blog.zepedro.com/d008d1863c30)
 * [The test drive question: why curious questions transform technical reviews](https://blog.zepedro.com/b70fbe2563a7)
 * [The garden that grows back wild: why resilience decays the moment you stop practicing it](https://blog.zepedro.com/4b587fd65f38)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The checklist paradox: why excellent engineers still need cloud guardrails](https://blog.zepedro.com/c5ea3739bf66)
 * [Not all switches are equal: the kill switch as operational infrastructure](https://blog.zepedro.com/a3bedf3db460)
 * [Learning to lean in: the discipline of walking toward discomfort](https://blog.zepedro.com/5b638a16e7ca)
-* [The captain’s inspection: why we need to examine more than whether the ship is floating](https://blog.zepedro.com/8c8a0c59011f)
 
 
 ## Ways to connect 🤝
