@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The forger’s apprentice: what a police sketch artist knows that AI doesn’t](https://blog.zepedro.com/3e9068846625)
 * [The second grid problem: what the microservices era teaches us about building in the age of AI](https://blog.zepedro.com/6e36f413896d)
 * [The gym membership principle: why defining fitness functions isn’t the same as using them](https://blog.zepedro.com/14bf1ceaeae6)
 * [The cartographer who stopped traveling: how familiarity hides the friction in platforms you built](https://blog.zepedro.com/d008d1863c30)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The ranger and the map: what platform teams become when AI coding agents do the building](https://blog.zepedro.com/3b856194d880)
 * [Thinner air, wider view: what nobody tells you about the staff engineer climb](https://blog.zepedro.com/cddbe6571a9d)
 * [The checklist paradox: why excellent engineers still need cloud guardrails](https://blog.zepedro.com/c5ea3739bf66)
-* [Not all switches are equal: the kill switch as operational infrastructure](https://blog.zepedro.com/a3bedf3db460)
 
 
 ## Ways to connect 🤝
