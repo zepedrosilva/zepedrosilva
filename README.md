@@ -31,6 +31,7 @@ My architectural philosophy rests on the following mantras:
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
+* [The wrong map: why the best question is a guess you expect to be corrected](https://blog.zepedro.com/fa95efd37f49)
 * [Hard or wrong: how to tell the difference when you’re already committed](https://blog.zepedro.com/27b3ad92ac17)
 * [The political capital ledger: why some engineers go broke and never know it](https://blog.zepedro.com/364aaead90d4)
 * [The forger’s apprentice: what a police sketch artist knows that AI doesn’t](https://blog.zepedro.com/3e9068846625)
@@ -40,7 +41,6 @@ My architectural philosophy rests on the following mantras:
 * [The test drive question: why curious questions transform technical reviews](https://blog.zepedro.com/b70fbe2563a7)
 * [The garden that grows back wild: why resilience decays the moment you stop practicing it](https://blog.zepedro.com/4b587fd65f38)
 * [The borrowed sense: why you can’t borrow AI’s engineering instinct](https://blog.zepedro.com/aae15f6724f8)
-* [The ranger and the map: what platform teams become when AI coding agents do the building](https://blog.zepedro.com/3b856194d880)
 
 
 ## Ways to connect 🤝
