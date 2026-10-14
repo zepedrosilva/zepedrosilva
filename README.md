@@ -1,33 +1,52 @@
-## Hey there! I'm Jose - nice to meet you! 👋
+# José Silva (Zé Pedro)
+
+### Architect · Writer · Systems Thinker
+*Chief Architect at [Mews](https://mews.com) · Dublin, Ireland*
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge)](https://zepedro.com)
+[![Publication](https://img.shields.io/badge/Publication-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.zepedro.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zepedro)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.zepedro.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zepedrosilva)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/zepedro)
-[![Bluesky](https://img.shields.io/badge/Bluesky-00A8E8?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/zepedro.com)
-[![Mentoring Club](https://img.shields.io/badge/Mentoring%20Club-FF6B35?style=for-the-badge)](https://www.mentoring-club.com/the-mentors/jose-silva)
 
-I'm that person who gets genuinely excited about turning complex technical puzzles into simple, elegant solutions that people actually enjoy using. Think of me as someone who bridges the gap between "this could work" and "this feels amazing to work with" - because honestly, if it's painful to use, what's the point?
+I spend my days thinking about large distributed systems, platform evolution, and the quirky, fascinating human dynamics of software teams. 
 
-When I'm not deep in code, diagrams or event storming sessions, you'll find me geeking out over the latest cloud technologies, diving into distributed systems rabbit holes (they're surprisingly fun!), and helping other developers level up their skills. There's something incredibly rewarding about watching someone's "aha!" moment when a complex concept finally clicks.
+I'm drawn to the seams between software and people: how architectures inevitably mirror the organizations that build them, why platform friction hides in plain sight from the people who built it, and what happens to engineering instinct when AI can generate infinite code. 
 
-## What drives me? 🚀
+I have zero interest in ivory towers or architectural decrees. I care about developer flow, practical elegance, systems that can be reasoned about without a PhD, and building things people genuinely enjoy working on.
 
-Nothing excites me more than crafting technology visions that transform complex architectural challenges into elegant, maintainable solutions. I specialize in designing systems that aren't just technically robust, but genuinely enjoyable to work with. My approach centers on creating platforms and tools that amplify team productivity while maintaining engineering excellence.
-In this rapidly evolving world of technology, I remain that curious developer who gets excited about elegant solutions to complex problems, but now with the wisdom to balance innovation with pragmatic delivery.
+---
 
-## Architecture philosophy 🏗️
+### Core Mantras 🏗️
 
-I believe in systems thinking - approaching complex problems holistically rather than in isolation.
+* 💻 **Developer experience first:** If an architecture is painful or confusing to work with, no amount of theoretical purity will save it.
+* 🌿 **Evolutionary design:** Build for today's concrete needs, but design intentional seams so tomorrow doesn't require a wrecking ball.
+* 🔧 **Operational reality over diagrams:** If a system isn't observable, debuggable, and honest under failure, it isn't finished.
+* ⚡ **Autonomy over bottlenecks:** Great architecture gives teams the confidence to move fast without asking for permission slips.
 
-My architectural philosophy rests on the following mantras:
-* 💻 Developer experience first: If it's painful to work with, it won't scale
-* 🌿 Evolutionary design: Build for today's needs with tomorrow's growth in mind
-* 🔧 Operational excellence: Systems should be observable, debuggable, and maintainable
-* ⚡ Team empowerment: Great architecture enables teams to move fast without breaking things
+---
 
-## Latest blog posts 📝
+### Flagship Essays & Curated Tracks 📚
+
+I write regularly on software craft, systems architecture, and engineering leadership at [blog.zepedro.com](https://blog.zepedro.com). Here are a few places to start:
+
+#### 🤖 AI & the Future of Engineering
+* [The borrowed sense: why you can’t borrow AI’s engineering instinct](https://blog.zepedro.com/aae15f6724f8) — *What generative tools produce, what they cannot transfer, and how engineers build real discernment.*
+* [The second grid problem: what microservices teach us about building in the age of AI](https://blog.zepedro.com/6e36f413896d) — *Proliferation, ownership, and the hidden cost of building everything from scratch.*
+* [The ranger and the map: what platform teams become when AI coding agents build](https://blog.zepedro.com/3b856194d880) — *Rethinking platform engineering and guardrails when agents produce code at scale.*
+
+#### 👥 Socio-Technical Leadership & Teams
+* [The political capital ledger: why some engineers go broke and never know it](https://blog.zepedro.com/364aaead90d4) — *Why being right doesn’t make a withdrawal free, and how voice and influence actually function.*
+* [Thinner air, wider view: what nobody tells you about the staff engineer climb](https://blog.zepedro.com/cddbe6571a9d) — *The shifts in leverage, ambiguity, and communication required at senior technical leadership levels.*
+* [The test drive question: why curious questions transform technical reviews](https://blog.zepedro.com/b70fbe2563a7) — *Moving technical reviews from performative critique to genuine collective inquiry.*
+
+#### 🏛️ Evolutionary Architecture & Modernization
+* [Hard or wrong: how to tell the difference when you’re already committed](https://blog.zepedro.com/27b3ad92ac17) — *The discipline of evaluating architectural bets from the inside.*
+* [The gym membership principle: why defining fitness functions isn’t using them](https://blog.zepedro.com/14bf1ceaeae6) — *How architectural guardrails fail through neglect and counterfeit diligence.*
+* [The cartographer who stopped traveling: how familiarity hides platform friction](https://blog.zepedro.com/d008d1863c30) — *Platform mapmaking and ensuring internal tools truly reflect developer reality.*
+
+---
+
+## Latest writing 📝
 
 <!-- BLOG_POSTS_PLACEHOLDER - Do not remove this comment -->
 
@@ -45,12 +64,9 @@ My architectural philosophy rests on the following mantras:
 
 ## Ways to connect 🤝
 
-I'm always interested in discussing system architecture, sharing knowledge about cloud-native patterns, or exchanging ideas about technical challenges. Whether you're looking to solve complex distributed systems problems, seeking mentoring guidance, or simply want to chat about the latest in software development and architecture, feel free to reach out.
+Always happy to chat about distributed architecture, socio-technical design, or the messy art of engineering in the age of AI.
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge)](https://zepedro.com)
+[![Publication](https://img.shields.io/badge/Publication-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.zepedro.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zepedro)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.zepedro.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zepedrosilva)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/zepedro)
-[![Bluesky](https://img.shields.io/badge/Bluesky-00A8E8?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/zepedro.com)
-[![Mentoring Club](https://img.shields.io/badge/Mentoring%20Club-FF6B35?style=for-the-badge)](https://www.mentoring-club.com/the-mentors/jose-silva)
