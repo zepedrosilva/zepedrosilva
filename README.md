@@ -29,20 +29,24 @@ I have zero interest in ivory towers or architectural decrees. I care about deve
 
 I write regularly on software craft, systems architecture, and engineering leadership at [blog.zepedro.com](https://blog.zepedro.com). Here are a few places to start:
 
+<!-- CURATED_THEMES_PLACEHOLDER - Do not remove this comment -->
+
 #### 🤖 AI & the Future of Engineering
-* [The borrowed sense: why you can’t borrow AI’s engineering instinct](https://blog.zepedro.com/aae15f6724f8) — *What generative tools produce, what they cannot transfer, and how engineers build real discernment.*
-* [The second grid problem: what microservices teach us about building in the age of AI](https://blog.zepedro.com/6e36f413896d) — *Proliferation, ownership, and the hidden cost of building everything from scratch.*
-* [The ranger and the map: what platform teams become when AI coding agents build](https://blog.zepedro.com/3b856194d880) — *Rethinking platform engineering and guardrails when agents produce code at scale.*
+* [The borrowed sense](https://blog.zepedro.com/aae15f6724f8) — *Why you can’t borrow AI’s engineering instinct*
+* [The second grid problem](https://blog.zepedro.com/6e36f413896d) — *What microservices teach us about building in the age of AI*
+* [The ranger and the map](https://blog.zepedro.com/3b856194d880) — *What platform teams become when AI coding agents build*
 
-#### 👥 Socio-Technical Leadership & Teams
-* [The political capital ledger: why some engineers go broke and never know it](https://blog.zepedro.com/364aaead90d4) — *Why being right doesn’t make a withdrawal free, and how voice and influence actually function.*
-* [Thinner air, wider view: what nobody tells you about the staff engineer climb](https://blog.zepedro.com/cddbe6571a9d) — *The shifts in leverage, ambiguity, and communication required at senior technical leadership levels.*
-* [The test drive question: why curious questions transform technical reviews](https://blog.zepedro.com/b70fbe2563a7) — *Moving technical reviews from performative critique to genuine collective inquiry.*
+#### 👥 Socio-Technical Leadership
+* [The political capital ledger](https://blog.zepedro.com/364aaead90d4) — *Why some engineers go broke and never know it*
+* [Thinner air, wider view](https://blog.zepedro.com/cddbe6571a9d) — *What nobody tells you about the staff engineer climb*
+* [The test drive question](https://blog.zepedro.com/b70fbe2563a7) — *Why curious questions transform technical reviews*
 
-#### 🏛️ Evolutionary Architecture & Modernization
-* [Hard or wrong: how to tell the difference when you’re already committed](https://blog.zepedro.com/27b3ad92ac17) — *The discipline of evaluating architectural bets from the inside.*
-* [The gym membership principle: why defining fitness functions isn’t using them](https://blog.zepedro.com/14bf1ceaeae6) — *How architectural guardrails fail through neglect and counterfeit diligence.*
-* [The cartographer who stopped traveling: how familiarity hides platform friction](https://blog.zepedro.com/d008d1863c30) — *Platform mapmaking and ensuring internal tools truly reflect developer reality.*
+#### 🏛️ Evolutionary Architecture
+* [Hard or wrong](https://blog.zepedro.com/27b3ad92ac17) — *How to tell the difference when you’re already committed*
+* [The gym membership principle](https://blog.zepedro.com/14bf1ceaeae6) — *Why defining fitness functions isn’t using them*
+* [The cartographer who stopped traveling](https://blog.zepedro.com/d008d1863c30) — *How familiarity hides friction in platforms you built*
+
+<!-- /CURATED_THEMES_PLACEHOLDER -->
 
 ---
 
