@@ -1,16 +1,18 @@
 # José Silva (Zé Pedro)
 
 ### Architect · Writer · Systems Thinker
-*Chief Architect at [Mews](https://mews.com) · Dublin, Ireland*
+*Systems Architect & Essayist · Dublin, Ireland*
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge)](https://zepedro.com)
 [![Publication](https://img.shields.io/badge/Publication-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.zepedro.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zepedro)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zepedrosilva)
 
-I spend my days thinking about large distributed systems, platform evolution, and the quirky, fascinating human dynamics of software teams. 
+I spend my days thinking about large-scale distributed systems, platform evolution, and the quirky, fascinating human dynamics of software teams. 
 
 I'm drawn to the seams between software and people: how architectures inevitably mirror the organizations that build them, why platform friction hides in plain sight from the people who built it, and what happens to engineering instinct when AI can generate infinite code. 
+
+Because software architecture is invisible, I rely on metaphors—wild gardens, police sketch artists, cartographers who stopped traveling—to give complex ideas a tangible shape.
 
 I have zero interest in ivory towers or architectural decrees. I care about developer flow, practical elegance, systems that can be reasoned about without a PhD, and building things people genuinely enjoy working on.
 
